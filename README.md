@@ -1,6 +1,6 @@
 # getting-and-cleaning-data
 ##For the Getting and Cleaning Data class
-##The run_analysis.R downloads the data, and cleans it with basic orders and the help of "dplyr" and "tidyr" packages. 
+*The run_analysis.R downloads the data, and cleans it with basic orders and the help of "dplyr" and "tidyr" packages. 
 *1.Merges the training and the test sets to create one data set. The potential problem is, after the title being added to the data, the function "merge" doesn't work well.  
 *2.Extracts only the measurements on the mean and standard deviation for each measurement. Different columns contain different signals, including "mean" and "std". The measurements of mean and standard deviation don't need to be calculated.  
 *3.Uses descriptive activity names to name the activities in the data set. There are just six activities, so I just type it. 
